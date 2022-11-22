@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/11a9c95312.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" type="" href="./bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="" href="../style/header.css">
     <link rel="stylesheet" type="" href="../style/main.css">
     <script src="./js/jquery.min.js.js"></script>
-    <script src="./JavaScript/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="./js/bootstrap.min.js"></script>
     <title>Thiết bị công nghệ</title>
 </head>
@@ -98,10 +103,162 @@
             </div>
         </div>
         <div id="main">
-             
+            <section class="slider">
+                <div class="container img-slider">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/slider_1.png?1664720334923" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/slider_2.png?1664720334923" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="border:2px solid #fff;width:40px;height:40px;margin-top:20%;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="border:2px solid #fff;width:40px;height:40px;margin-top:20%;">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
            
             <section class="banner">
-
+                <div class="container box-item">
+                    <div class="row" >
+                        <div class="col-3 item">
+                            <div class="row">
+                                <div class="col-4"><img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping1.png?1664720334923" alt="images"></div>
+                                <div class="col-8"><p style="font-size: 13px;font-weight:bold;">VẬN CHUYỂN TOÀN QUỐC</p></div>
+                            </div>
+                        </div>
+                        <div class="col-3 item">
+                            <div class="row">
+                                <div class="col-4"><img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping2.png?1664720334923" alt="images"></div>
+                                <div class="col-8"><p style="font-size: 13px;font-weight:bold;">HỖ TRỢ 24/7, GỌI BẤT CỨ LÚC NÀO</p></div>
+                            </div>
+                        </div>
+                        <div class="col-3 item">
+                            <div class="row">
+                                <div class="col-4"><img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping3.png?1664720334923" alt="images"></div>
+                                <div class="col-8"><p style="font-size: 13px;font-weight:bold;">CAM KẾT CHÍNH HÃNG, THANH TOÁN AN TOÀN</p></div>
+                            </div>
+                        </div>
+                        <div class="col-3 item">
+                            <div class="row">
+                                <div class="col-4"><img src="//bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping4.png?1664720334923" alt="images"></div>
+                                <div class="col-8"><p style="font-size: 13px;font-weight:bold;">ƯU ĐÃI HẤP DẪN, GIẢM ĐẾN 60%</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="product-slide">
+                <div class="container">
+                    <div class="title-text">
+                        <h2> <a href="" > <b style="color: orangered;">|</b>SẢN PHẨM MỚI NHẤT</a></h2>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/1451364213-may-khoan-tu-woj3200.jpg?v=1569811601547" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">MÁY KHOAN TỪ NITTO WOJ-3200 </a>
+                                <p class="price-product">2.600.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product4.jpg?v=1570004780070" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">MÁY KHOAN BÚA BOSCH GBH 2-24RE (790W)</a>
+                                <p class="price-product">3.050.000<ins>đ</ins></p>
+                                <p><strike>4.000.000<ins>đ</ins></strike></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div> 
+                        </div>
+                        <div class="swiper-slide">
+                                <div class="product-item">
+                                    <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product1-5c9e812d-4dd5-4bca-af76-e6d98cc5b296.jpg?v=1570088028723" alt=""></a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="" class="name-product">SÚNG PHUN CÁT CẦM TAY DÙNG KHÍ NÉN</a>
+                                    <p class="price-product">320.000<ins>đ</ins></p>
+                                </div>
+                                <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                                <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/may-phun-son-da-dung-haupon-tm71-g3.jpg?v=1568021647227" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">SÚNG PHUN SƠN CẦM TAY MEIJI F55 SERIES</a>
+                                <p class="price-product">300.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product2-83968288-eb28-4e72-8eee-cce2c54273e8.jpg?v=1570086821177" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">TÔ VÍT 4 CẠNH LOẠI CÁN MỀM KTC D1P2-1</a>
+                                <p class="price-product">150.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product3-20b73e6c-a8f2-4796-8866-e9ce2845da2b.jpg?v=1570034849377" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">MÁY VÁT MÉP CƠ KHÍ AGP P3000</a>
+                                <p class="price-product">25.000.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product2-ab561b6c-bc69-4afb-9cc6-aa7f6ffde43f.jpg?v=1570034723740" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">TÔ VÍT 4 CẠNH LOẠI CÁN MỀM KTC D1P2-1</a>
+                                <p class="price-product">150.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-item">
+                                <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/product5.jpg?v=1570010901737" alt=""></a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="name-product">TÔ VÍT 4 CẠNH LOẠI CÁN MỀM KTC D1P2-1</a>
+                                <p class="price-product">150.000<ins>đ</ins></p>
+                            </div>
+                            <div class="cart"><button><i class='fas fa-shopping-cart'></i></button></div>
+                            <div class="cart-sale"><i class="fa-regular fa-eye"></i></div>
+                        </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </section>
             <section class="video">
 
@@ -123,7 +280,7 @@
 
         </div>
     </div>
-
+    <script src="./JavaScript/slider.js"></script>
 
 </body>
 </html>

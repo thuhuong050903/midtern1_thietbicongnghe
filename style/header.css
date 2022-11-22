@@ -13,6 +13,45 @@
 }
 
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    width: 250px;
+    
+}
+.dropdown ul{
+    list-style-type: none;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: orangered;
+}
+
+.dropdown-menu .dropdow-menu .dropdown-item:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.dropdown-menu {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+.dropdow-menu .sub-menu {
+    display: none;
+}
+
+.dropdow-menu:hover .sub-menu {
+    display: block;
+
+}
+
 .search-box {
     position: relative;
     background: #fff;
